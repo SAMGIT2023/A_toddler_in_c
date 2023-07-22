@@ -1,0 +1,8 @@
+#include <stdio.h>
+//prints out a given integer
+int main()
+{
+int n = 20;
+printf("The number is : %d", n);
+return (0);
+}

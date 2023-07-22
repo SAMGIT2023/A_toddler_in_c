@@ -1,0 +1,8 @@
+#include <stdio.h>
+//prints out a given character
+int main()
+{
+char c = 'd';
+printf("The character is : %c", c);
+return (0);
+}
