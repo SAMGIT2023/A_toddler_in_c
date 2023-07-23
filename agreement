@@ -1,0 +1,15 @@
+//a program to agree to terms and conditions
+#include <stdio.h>
+int main(void)
+{
+printf("Y to agree, N to disagree\n");
+char c = getchar();
+if (c == 'y' || c == 'Y')
+{
+printf("Terms and conditions agreed, Welcome");
+}
+else
+{
+printf("Kindly agree to terms and conditions to continue.");
+}
+}
