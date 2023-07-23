@@ -1,0 +1,10 @@
+//while_we_loop
+#include <stdio.h>
+int main()
+{
+int x = 0;
+while (x <= 20)
+{printf("Hello world of c");
+}
+return (0);
+}
