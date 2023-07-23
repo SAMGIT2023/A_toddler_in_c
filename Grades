@@ -1,0 +1,24 @@
+//A program to grade student marks
+#include <stdio.h>
+int main()
+{
+int Marks;
+printf("Enter your marks: ");
+scanf("%d", &Marks);
+
+if (Marks <= 40)
+printf("Grade: F");
+else if (Marks >= 41 && Marks <= 49)
+printf("Grade: E");
+else if (Marks >= 50 && Marks <= 59)
+printf("Grade: D");
+else if (Marks >= 60 && Marks <= 69)
+printf("Grade: C");
+else if (Marks >= 70 && Marks <= 79)
+printf("Grade: B");
+else
+printf("Grade: A");
+
+return (0);
+}
+
