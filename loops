@@ -1,0 +1,9 @@
+//A program to loop around numbers
+#include <stdio.h>
+int main()
+{
+for(int x = 50; x < 101; x=x+2)
+{ printf("%d", x);
+}
+return (0);
+}
