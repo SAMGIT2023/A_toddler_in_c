@@ -5,17 +5,22 @@ int main()
 int Marks;
 printf("Enter your marks: ");
 scanf("%d", &Marks);
-
+//marks less than 40
 if (Marks <= 40)
 printf("Grade: F");
+//marks 41 - 49
 else if (Marks >= 41 && Marks <= 49)
 printf("Grade: E");
+//marks 50 - 59
 else if (Marks >= 50 && Marks <= 59)
 printf("Grade: D");
+//marks 60 - 69
 else if (Marks >= 60 && Marks <= 69)
 printf("Grade: C");
+//marks 70 - 79
 else if (Marks >= 70 && Marks <= 79)
 printf("Grade: B");
+//marks > 79
 else
 printf("Grade: A");
 
